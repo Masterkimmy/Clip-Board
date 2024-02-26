@@ -1,0 +1,557 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+.img1{
+    height: 90px;
+}
+.two{
+    display: flex;
+    gap: 20px;
+}
+.div2 h1{
+    color:  hsl(210, 10%, 33%);
+}
+.div2 p{
+    color:   hsl(201, 11%, 66%);
+    text-align: center;
+    font-size: small;
+}
+.ios{
+    background-color:  hsl(171, 66%, 44%);
+    color: white;
+    border-radius: 20px;
+    font-size:18px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.ios:hover{
+    box-shadow: 0px 10px 10px 0px hsl(171, 100%, 87%);
+}
+.mac{
+    background-color:   hsl(233, 100%, 69%);
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.mac:hover{
+    box-shadow: 0px 10px 10px hsl(233, 100%, 90%);
+
+}
+.div2{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1{
+        font-size: 40px;
+    }
+}
+.div2 p{
+    font-size: 18px;
+}
+.sec1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 10% ;
+    background: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+}
+.und_sec1{
+ 
+
+}
+.div1 h1{
+    color:  hsl(210, 10%, 33%);
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.div1 p{
+    color:  hsl(201, 11%, 66%);
+    text-align: center;
+    font-size: small;
+    width: 480px;
+    line-height: 20px;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.app{
+    height: 500px;
+    width: 700px;
+}
+.qui{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.qui h5{
+    color:  hsl(210, 10%, 33%);
+
+}
+.qui p{
+   color:  hsl(201, 11%, 66%);
+   font-size: small;
+   width: 270px;
+   line-height: 20px;
+}
+.loud{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.loud h5{
+    color: hsl(210, 10%, 33%);
+    text-transform: uppercase;
+}
+.loud p{
+    color:  hsl(201, 11%, 66%);
+    font-size: small;
+    width: 270px;
+    line-height: 20px;
+}
+.his{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.his h5{
+    color:  hsl(210, 10%, 33%);
+}
+.his p{
+    color:  hsl(201, 11%, 66%);
+    font-size: small;
+    width: 270px;
+    line-height: 20px;
+}
+.quick{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.apple{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    position: relative;
+    right: 100px;
+    margin-top: 20px;
+}
+.sec2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    margin: 50px;
+}
+.flow{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+}
+.flow h2{
+    color:  hsl(210, 10%, 33%);
+}
+.flow p{
+    color:  hsl(201, 11%, 66%); 
+    font-size: small;
+    text-align: center;
+}
+.clip{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+}
+.clip h1{
+    color:  hsl(210, 10%, 33%);
+    text-align: center;
+}
+.clip p{
+    color:  hsl(201, 11%, 66%); 
+    font-size: small;
+    text-align: center;
+    width: 500px;
+    line-height: 20px;
+}
+.ges{
+    height: 350px;
+    width: 600px;
+    margin-top: 30px;
+}
+.img2{
+    height: 15px;
+}
+.list h1{
+    color:  hsl(210, 10%, 33%); 
+}
+.list p{
+    color:  hsl(201, 11%, 66%); 
+    font-size: small;
+    width: 270px;
+    line-height: 20px;
+}
+.img3{
+    height: 15px;
+}
+.text h1{
+    color:  hsl(210, 10%, 33%); 
+}
+.text  p{
+    color:  hsl(201, 11%, 66%); 
+    font-size: small;
+    line-height: 20px;
+    width: 270px;
+}
+.img4{
+    height: 15px;
+}
+.sneak h1{
+    color:  hsl(210, 10%, 33%); 
+}
+.sneak p{
+    color:  hsl(201, 11%, 66%); 
+    font-size: small;
+    line-height: 20px;
+    width: 270px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.sneak{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.sow{
+    display: flex;
+    gap: 20px;
+}
+.sec3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    gap: 15px;
+}
+.oml{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.omg{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.omm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.in , .bo,.lo,.go,.li{
+    height: 30px;
+}
+.imgg{
+    display: flex;
+    gap: 50px;
+}
+.and h2{
+    color:  hsl(210, 10%, 33%); 
+    text-align: center;
+}
+.and p{
+    color:  hsl(201, 11%, 66%); 
+    font-size: small;
+    text-align: center;
+    width: 500px;
+    line-height: 20px;
+}
+.own{
+    background-color:  hsl(171, 66%, 44%);
+    color: white;
+    border-radius: 10px;
+    font-size: x-small;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+.own:hover{
+    box-shadow: 0 10px 10px  hsl(171, 100%, 87%);
+}
+.ioa{
+    background-color:   hsl(233, 100%, 69%);
+    color: white;
+    border-radius: 10px;
+    font-size: x-small;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+.ioa:hover{
+    box-shadow: 0 10px 10px  hsl(233, 100%, 90%)  ;
+
+}
+.man{
+    display: flex;
+    gap: 20px;
+}
+.sec4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    margin-top: 60px;
+}
+.and{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.wow{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.last{
+    height: 40px;
+}
+.bot{
+    color:  hsl(201, 11%, 66%);
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.pol{
+    color:  hsl(201, 11%, 66%);
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+} 
+.tall{
+    color:  hsl(201, 11%, 66%); 
+    font-size: small;
+}
+.immgg{
+    display: flex;
+    gap: 15px;
+}
+.sec5{
+    background-color: rgb(225, 225, 225);
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    justify-content: space-around;
+    padding: 30px;
+}
+.mas{
+    height: 15px;
+}
+.pag{
+    height: 15px;
+}
+.con{
+    height: 15px;
+}
+.tton{
+    display: flex;
+    gap: 90px;
+}
+@media screen and (max-width: 950px) {
+    .div2 h1{
+        font-size:24px;
+        width: 60vw;
+        text-align: center;
+    }
+    .div2 p{
+        font-size: 16px;
+        width: 72vw;
+        line-height: 20px;
+    }
+    .two{
+        flex-direction: column;
+        p{
+            border-radius: 40px;
+            padding: 10px 60px;
+        }
+    }
+    .div1 p{
+        width: 58vw;
+    }
+    .div1{
+        align-items: center;
+    }
+    .apple{
+        flex-direction: column;
+        right: 0;
+    }
+    .qui p{
+        width: 250px;
+        text-align: center;
+    }
+    .qui{
+         align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .loud p{
+        width: 220px;
+        text-align: center;
+    }
+    .loud{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .his p{
+        width: 250px;
+        text-align: center;
+    }
+    .his{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .qui h5 , .loud h5,.his h5{
+        font-size: 25px;
+    }
+    .qui p, .loud p, .his p{
+        line-height: 20px;
+    }
+    .clip h1{
+        width: 300px;
+    }
+    .clip p{
+        width: 60vw;
+        line-height: 20px;
+    }
+    .clip{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .flow h2{
+        width: 70vw;
+    }
+    .flow p{
+        width: 200px;
+        line-height: 20px;
+    }
+    .flow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+    .sow{
+       
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+    }
+    .sow .img2,.img3,.img4{
+        height: 40px;
+    }
+    .sec3{
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        
+    }
+    .list p{
+        width: 60vw;
+        line-height: 20px;
+    }
+    .sneak p{
+        width: 250px;
+    
+    }
+    .imgg{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .and{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .and h2{
+        width: 65vw;
+    }
+    .and p{
+        width: 70vw;
+        font-size: 18px;
+    }
+    .man{
+        flex-direction: column;
+    }
+    .man .own,.ioa{
+        padding: 10px 60px;
+        border-radius: 20px;
+        font-size: 18px;
+    }
+    .tton{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .sec5{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        padding: 10% 0;
+    }
+    .pol, .bot, .tall{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .app{
+        width: 300px;
+        height: 250px;
+    }
+    .ges{
+        width: 300px;
+        height: 250px;
+    }
+    .immgg{
+        display: flex;
+        gap: 20px;
+    }
+    .and p{
+        line-height: 30px;
+        width: 80vw;
+    }
+    }
